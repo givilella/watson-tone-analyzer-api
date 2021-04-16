@@ -5,6 +5,7 @@ const app = express();
 
 const PORT = process.env.PORT;
 
+app.use(express.json());
 app.use('/api', require('./controllers/api/index'));
 
 app.listen(PORT, () => {
