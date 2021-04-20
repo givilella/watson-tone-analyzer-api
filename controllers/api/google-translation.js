@@ -2,7 +2,7 @@ const router = require('express').Router();
 const {
   detectLanguage,
   translateText,
-} = require('../middlewares/google-translation');
+} = require('../../middlewares/google-translation');
 
 const TARGET_LANGUAGE = 'en';
 

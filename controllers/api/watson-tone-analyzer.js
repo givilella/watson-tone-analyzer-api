@@ -15,7 +15,7 @@ const toneAnalyzer = new ToneAnalyzerV3({
 const {
   detectLanguage,
   translateText,
-} = require('../middlewares/google-translation');
+} = require('../../middlewares/google-translation');
 
 router.post('/analyze', async (req, res) => {
   let text = req.body.text;
