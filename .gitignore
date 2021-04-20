@@ -2,3 +2,4 @@
 /controllers/api/clients
 .env
 credentials.json
+*.credentials.json
